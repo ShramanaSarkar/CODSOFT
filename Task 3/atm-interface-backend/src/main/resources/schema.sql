@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS bank_account (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    account_number VARCHAR(20) NOT NULL UNIQUE,
+    balance DECIMAL(10,2) NOT NULL
+);
