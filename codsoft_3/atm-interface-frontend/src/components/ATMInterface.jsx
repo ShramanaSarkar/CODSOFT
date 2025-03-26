@@ -60,7 +60,7 @@ const ATMInterface = () => {
     <Card sx={{ maxWidth: 400, margin: "auto", padding: 2, mt: 5 }}>
       <CardContent>
         <Typography variant="h5" align="center" gutterBottom>
-          ATM Interface
+          {/* ATM Interface */}
         </Typography>
 
         {/* Account ID Input */}
